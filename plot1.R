@@ -1,12 +1,8 @@
 plot1_data <- read.csv("power_data.csv",stringsAsFactors = TRUE,row.names = 1)
 
-png("plot1.png")
+png("plot1.png",width=480,height=480)
 
 par(
-  cex.main = 1.1,
-  cex.axis = .9,
-  cex.lab = .9,
-  cex = 1.1,
   bg = NA
 )
 
