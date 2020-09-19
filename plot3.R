@@ -1,3 +1,5 @@
+## Run download_data.R first to download and store the data into a new table
+
 library(lubridate)
 
 ## Read data into R
